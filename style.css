@@ -2,8 +2,8 @@ body{
 margin:0;
 padding:0;
 font-family:sans-serif;
-background:#000;
-color:#fff;
+background:#fff;
+color:#000;
 }
 
 header{
@@ -11,13 +11,13 @@ padding:20px;
 text-align:center;
 background:linear-gradient(
 180deg,
-#000,
-#1a1a1a
+#fff,
+#9E9E9E
 );
 }
 
 h1{
-color:#FFD700;
+color:#FFFFFF;
 margin:0;
 font-weight:900;
 }
@@ -28,9 +28,9 @@ max-width:400px;
 padding:12px;
 margin-top:15px;
 border-radius:12px;
-border:2px solid #FFD700;
-background:#111;
-color:#fff;
+border:2px solid #9E9E9E;
+background:#fff;
+color:#000;
 font-weight:bold;
 outline:none;
 }
@@ -62,8 +62,8 @@ padding:8px;
 /* ========================= */
 
 .card{
-background:#111;
-border:2px solid #FFD700;
+background:#fff;
+border:2px solid #9E9E9E;
 border-radius:12px;
 overflow:hidden;
 
@@ -95,7 +95,7 @@ display:block;
 
 object-fit:fill;
 
-background:#000;
+background:#9E9E9E;
 padding:0;
 margin:0;
 }
@@ -133,11 +133,11 @@ padding:0 !important;
 font-size:8px !important;
 font-weight:700 !important;
 
-background:#FFD700 !important;
-color:#000 !important;
+background:#000000 !important;
+color:#fff !important;
 
 border-radius:999px !important;
-border:1px solid #000 !important;
+border:1px solid #9E9E9E !important;
 
 text-decoration:none !important;
 box-sizing:border-box;
@@ -155,8 +155,8 @@ filter:brightness(0.85);
 #backBtn{
 margin:15px;
 padding:10px 15px;
-background:#FFD700;
-color:#000;
+background:#000000;
+color:#fff;
 border:none;
 font-weight:bold;
 border-radius:12px;
