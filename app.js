@@ -277,7 +277,7 @@ function downloadSkin(url, skinName){
     try{
 
         window.location.href =
-        "cobratools://download?url="
+        "phoenixtoolsskin://download?url="
         + encodeURIComponent(url)
         + "&name="
         + encodeURIComponent(skinName);
@@ -285,7 +285,7 @@ function downloadSkin(url, skinName){
     }catch(e){
 
         alert(
-            "Cobra Tools belum terinstall"
+            "Phoenix Tools Skin belum terinstall"
         );
 
     }
